@@ -12,7 +12,7 @@ const MenuItemDiv = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 50%;
+    width: 60%;
     margin: 2vw;
 
 `;
