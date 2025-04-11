@@ -12,12 +12,6 @@ const StyledH1 = styled.h1`
     font-family: "Rancho", cursive;
     font-weight: 500;
     font-style: normal;
-}
-
-`;
-
-const StyledA = styled.a`
-    text-decoration: none;
 `;
 
 const StyledH3 = styled.h3`
@@ -29,7 +23,7 @@ const StyledH3 = styled.h3`
 export function Header() {
     return (
         <StyledDiv>
-            <StyledA href=""><StyledH1>Danny's Dulces</StyledH1></StyledA>
+            <StyledH1>Danny's Dulces</StyledH1>
             <StyledH3>Fresh, homemade Peruvian pastries</StyledH3>
         </StyledDiv>
     );
