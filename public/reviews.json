@@ -1,0 +1,16 @@
+{
+    "reviews": [
+        {
+            "id": 1,
+            "text": "Thank you for the cookies, they were really good, my parents loved them!"
+        },
+        {
+            "id": 2,
+            "text": "Your cookies are delicious and you can make me 2 dozen every month!"
+        },
+        {
+            "id": 3,
+            "text": "Your alfajores are fantastic! I always bring them to my events and everyone loves them!!"
+        }
+    ]
+}

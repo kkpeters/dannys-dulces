@@ -1,0 +1,53 @@
+{
+    "menu": [
+        {
+            "id": 1,
+            "item_name": "Alfajores Box (1 dozen)",
+            "description": "Dulce de leche filled shortbread cookie.",
+            "imageURL": "../menuPictures/alfajores.jpg",
+            "price": 15
+        },
+        {
+            "id": 2,
+            "item_name": "Sanrio Alfajores Box (16 cookies)",
+            "description": "Dulce de leche filled shortbread cookie.",
+            "imageURL": "/menuPictures/sanrioAlfajores.jpeg",
+            "price": 15
+        },
+        {
+            "id": 3,
+            "item_name": "Tres Leches Loaf Cake",
+            "description": "Flavors: original, strawberry, chocolate, or kinder.",
+            "imageURL": "/menuPictures/originalTresLechesLoaf.jpeg",
+            "price": 15
+        },
+        {
+            "id": 4,
+            "item_name": "Tres Leches Full Pan Cake",
+            "description": "Flavors: original, strawberry, chocolate, or kinder.",
+            "imageURL": "/menuPictures/strawberryTresLeches.jpg",
+            "price": 25
+        },
+        {
+            "id": 5,
+            "item_name": "Cinnamon Rolls (1 dozen)",
+            "description": "Rolled brioche buns filled with cinnamon sugar and topped with vanilla icing.",
+            "imageURL": "/menuPictures/cinnamonRolls.jpg",
+            "price": 30
+        },
+        {
+            "id": 6,
+            "item_name": "Empanadas (1 dozen)",
+            "description": "Flavors: spinach and cheese, or peruvian picadillo.",
+            "imageURL": "/menuPictures/empanadas.jpg",
+            "price": 25
+        },
+        {
+            "id": 7,
+            "item_name": "Banana Loaf Bread",
+            "description": "Flavors: original, chocolate chip, or walnut.",
+            "imageURL": "/menuPictures/comingSoon.png",
+            "price": 12
+        }
+    ]
+}
