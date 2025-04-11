@@ -26,13 +26,17 @@ const StyledP = styled.p`
     text-align: center;
 `;
 
+const StyledH2 = styled.h2`
+    margin-bottom: 1vw;
+`;
+
 
 export function HomePage() {
     return (
             <StyledDiv>
                 <FadeInSection>
                     <h1>A Taste of Peru, Baked Just Like Home.</h1>
-                    <h2>Because it <em>was</em> baked at home.</h2>
+                    <StyledH2>Because it <em>was</em> baked at home.</StyledH2>
                 </FadeInSection>
                 <Parallax></Parallax>
 
