@@ -7,5 +7,6 @@ export type Menu = {
     id: number;
     item_name: string;
     description: string;
+    imageURL: string;
     price: number;
 }

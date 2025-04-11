@@ -1,6 +1,5 @@
 import { Menu } from "../interfaces/Types.ts";
 import { styled } from "styled-components";
-import React, {useState, useRef, useEffect} from 'react';
 import { FadeInSection } from "../components/FadeInSection";
 
 const StyledDiv = styled.div`
@@ -39,21 +38,6 @@ const StyledH5 = styled.h5`
 `;
 const StyledP = styled.p`
     font-size: calc(3px + 1.4vw);
-`;
-
-const IsVisible = styled.div`
-    opacity: 1;
-    transform: none;
-    visibility: visible;
-    display: flex; 
-`;
-
-const Section = styled.div`
-    opacity: 0;
-    transform: translate(0, 50%);
-    visibility: hidden;
-    transition: opacity 300ms ease-out, transform 300ms ease-out;
-    will-change: opacity, visibility;
 `;
 
 export function MenuDisplay(temp: {data: Menu[]}) {

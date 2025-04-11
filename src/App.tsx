@@ -5,7 +5,6 @@ import { Nav } from "./components/Nav";
 import { HomePage } from "./components/HomePage";
 import { About } from "./components/About";
 import { GetMenu } from "./components/GetMenu";
-import { GetReviews } from "./components/GetReviews";
 import { Footer } from "./components/Footer";
 import { styled } from "styled-components";
 

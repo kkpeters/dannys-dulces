@@ -1,9 +1,15 @@
 // https://codesandbox.io/p/sandbox/musing-bush-xys5b?file=%2Fsrc%2FFadeInSection.js%3A5%2C9
 
-import React, { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect } from "react";
+import {ReactNode} from "react";
 import "../FadeInSection.css";
 
-export function FadeInSection(props) {
+interface FadeInSectionProps {
+  children: ReactNode;
+}
+
+
+export function FadeInSection({children}: FadeInSectionProps) {
   const [isVisible, setVisible] = useState(false);
 
   const domRef = useRef<HTMLDivElement | null>(null);
@@ -16,7 +22,9 @@ export function FadeInSection(props) {
         setVisible(true);
 
         // No need to keep observing:
-        observer.unobserve(domRef.current);
+        if (domRef.current) {
+          observer.unobserve(domRef.current);
+        }
       }
     });
 
@@ -37,7 +45,7 @@ export function FadeInSection(props) {
       ref={domRef}
       className={`fade-in-section ${isVisible ? "is-visible" : ""}`}
     >
-      {props.children}
+      {children}
     </div>
   );
 }
